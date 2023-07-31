@@ -1,0 +1,318 @@
+*
+header{
+    display: block;
+    background-color:#FFFFFF;
+    height: 0.0005px;
+
+}
+div.logo{
+display: inline-block;
+font-family: Raleway;
+font-size: 26px;
+font-weight: 700;
+line-height: 31px;
+letter-spacing: 0.03em;
+text-align: left;
+margin-left: 30px;
+
+font-family: Oleo Script;
+font-size: 26px;
+font-weight: 400;
+line-height: 36px;
+letter-spacing: 0.03em;
+width: 145px
+}
+div.studio {
+    display: inline-block;
+    margin-left: 100px;
+    width: 45px
+    
+
+} 
+div.portfolio {
+font-family: Roboto;
+font-size: 14px;
+font-weight: 500;
+line-height: 16px;
+letter-spacing: 0.02em;
+text-align: left;
+display: inline-block;
+margin-left: 30px;
+width: 72px
+
+}   
+div.contact{
+display: inline-block;
+font-family: Roboto;
+font-size: 14px;
+font-weight: 500;
+line-height: 16px;
+letter-spacing: 0.02em;
+text-align: left;
+margin-left:30px ;
+width: 64px
+
+}
+div.email {
+display: inline-block;
+margin-left: 120px;
+width: 135px;
+color: #757575;
+
+}
+div.tel {
+    display: inline-block;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    margin-left:60px;
+    width: 122px;
+
+}
+a:hover{
+    color: blue;
+}
+
+a{text-decoration: none;}
+
+div.blok{
+    display: block;
+    height: 600px;
+    margin-top: 80px;
+    border: 1px solid black;
+    padding: 10px;
+    background-color: #2F303A;}
+p.efect{
+    display: block;
+    margin-top: 230px;
+ text-align: center;
+ font-family: Roboto;
+font-size: 44px;
+font-weight: 900;
+line-height: 60px;
+letter-spacing: 0.06em;
+text-align: center;
+color: #FFFFFF;
+}
+button.posluga{
+    display: block;
+    margin-top: auto;
+    margin-left: 550px;
+    margin-right:550px ;
+    height: 50px;
+    width: 216px;
+    border-radius: 4px;
+    box-shadow: 0px 4px 4px 0px #00000026;
+    background: #2196F3;
+
+}
+
+p.pos{
+display: inline;
+font-family: Roboto;
+font-size: 16px;
+font-weight: 700;
+line-height: 30px;
+letter-spacing: 0.06em;
+text-align: center;
+color: #FFFFFF;
+}
+h2.most{
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-align: left;
+    color: #212121;
+ }
+ p.tex{
+font-family: Roboto;
+font-size: 14px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0.03em;
+text-align: left;
+color:  #757575;
+
+
+ }
+div.yva{
+    display: inline-block;
+    width: 270px;
+    height: 98px;
+    margin-left: 30px;
+    margin-top: 40px;
+    padding: 10px;
+    background-color: #ffffff;
+}
+div.pun{
+    display: inline-block;
+    width: 270px;
+    height: 74px;
+    margin-left: 30px;
+    margin-top: 40px;
+    padding: 10px;
+    background-color: #ffffff;
+}
+div.pln{
+    display: inline-block;
+    width: 270px;
+    height: 74px;
+    margin-left: 30px;
+    margin-top: 40px;
+    padding: 10px;
+    background-color: #ffffff;
+}
+div.suh{
+    display: inline-block;
+    width: 270px;
+    height: 74px;
+    margin-left: 30px;
+    margin-right:40px ;
+    margin-top: 40px;
+    padding: 10px;
+    background-color: #ffffff;
+}
+img.play{
+    display: inline-block;
+    width: 1170px;
+   height: 386px;
+margin-top: 50px;
+margin-left: 80px;
+
+}
+div.team{
+    background-color: #F5F4FA;
+}
+img.teem{
+   display: inline-block;
+   width: 270px;
+   height: 260px;
+   top: 1632px;
+   left: 215px
+}
+div.igor{
+    display: inline-block;
+    width: 270px;
+    height: 368px;
+    top: 1632px;
+    left: 215px; 
+    background-color: #FFFFFF;
+    border-radius: 0px 0px 4px 4px;
+    box-shadow: 0px 2px 1px 0px #00000033;
+    box-shadow: 0px 1px 1px 0px #00000024;
+    box-shadow: 0px 1px 3px 0px #0000001F;
+    margin: 30px;
+}    
+div.olga{
+    display: inline-block;
+    width: 270px;
+    height: 368px;
+    top: 1632px;
+    left: 515px;
+    background-color: #FFFFFF;
+    border-radius: 0px 0px 4px 4px;
+    box-shadow: 0px 2px 1px 0px #00000033;
+    box-shadow: 0px 1px 1px 0px #00000024;
+    box-shadow: 0px 1px 3px 0px #0000001F;
+    margin: 30px;
+}
+div.mikola{
+    display: inline-block;
+    width: 270px;
+    height: 368px;
+    top: 1632px;
+    left: 815px;
+    background-color: #FFFFFF;
+    border-radius: 0px 0px 4px 4px;
+    box-shadow: 0px 2px 1px 0px #00000033;
+    box-shadow: 0px 1px 1px 0px #00000024;
+    box-shadow: 0px 1px 3px 0px #0000001F;
+    margin: 30px;
+}
+div.mixa{
+    display: inline-block;
+    width: 270px;
+    height: 368px;
+    top: 1632px;
+    left: 1115px;
+    background-color: #FFFFFF;
+    border-radius: 0px 0px 4px 4px;
+    box-shadow: 0px 2px 1px 0px #00000033;
+    box-shadow: 0px 1px 1px 0px #00000024;
+    box-shadow: 0px 1px 3px 0px #0000001F;
+    margin: 30px;
+}
+h2.good{
+    display: block;
+    font-family: Roboto;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 42px;
+    letter-spacing: 0.03em;
+    text-align: center;
+    color:  #212121;
+}
+h2.name{
+    display: block;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+    letter-spacing: 0.03em;
+    text-align: center;
+    color: #212121;
+
+
+}
+p.work{
+    display: block;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0.03em;
+    text-align: center;
+    color: #757575;
+}
+footer{
+    display: block;
+    background-color: #2F303A;
+    height: 252px;
+}
+div.foot{
+    display: block;
+    margin-bottom: 30px;
+    margin-left: 215px;
+
+}
+address.kiev{
+display: inline-block;
+font-family: Roboto;
+font-size: 14px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0.03em;
+text-align: left;
+color: #FFFFFF;
+
+width: 231px;
+height: 21px;
+top: 2205px;
+margin-left: 215px;
+}
+a.adress{
+display: block;
+font-family: Roboto;
+font-size: 14px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0.03em;
+text-align: left;
+color: #FFFFFF99;
+margin-left: 215px;
+}
