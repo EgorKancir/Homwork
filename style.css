@@ -1,254 +1,240 @@
 *
-header{
+body{
+    background-color: #ffffff;
+}
+.header{
     display: block;
     background-color:#FFFFFF;
-    height: 0.0005px;
-
+    padding-bottom: 0.00001px;
 }
-div.logo{
-display: inline-block;
-font-family: Raleway;
-font-size: 26px;
-font-weight: 700;
-line-height: 31px;
-letter-spacing: 0.03em;
-text-align: left;
-margin-left: 30px;
-
-font-family: Oleo Script;
-font-size: 26px;
-font-weight: 400;
-line-height: 36px;
-letter-spacing: 0.03em;
-width: 145px
+.container{
+    max-width:1600px;
+    height: 77px;
+    margin:0 auto;
+    padding: 0 15px;
 }
-div.studio {
-    display: inline-block;
-    margin-left: 100px;
-    width: 45px
+.logo {
+    padding-left: 215px;
+    padding-top: 23.1px;
+    padding-bottom: 24.06px;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+   
     
-
-} 
-div.portfolio {
-font-family: Roboto;
-font-size: 14px;
-font-weight: 500;
-line-height: 16px;
-letter-spacing: 0.02em;
-text-align: left;
-display: inline-block;
-margin-left: 30px;
-width: 72px
-
-}   
-div.contact{
-display: inline-block;
-font-family: Roboto;
-font-size: 14px;
-font-weight: 500;
-line-height: 16px;
-letter-spacing: 0.02em;
-text-align: left;
-margin-left:30px ;
-width: 64px
-
 }
-div.email {
-display: inline-block;
-margin-left: 120px;
-width: 135px;
-color: #757575;
-
-}
-div.tel {
-    display: inline-block;
+.menu{
+    display: flex;
+    padding-left: 93px;
+    padding-right: 344px;
+    width: 45px;
+    height: 15.4px;
+    flex-shrink: 0;
     font-family: Roboto;
     font-size: 14px;
+    font-style: normal;
     font-weight: 500;
-    line-height: 16px;
-    letter-spacing: 0.02em;
-    text-align: left;
-    margin-left:60px;
-    width: 122px;
+    line-height: normal;
+    letter-spacing: 0.28px;
+    padding-top: 30.8px;
+    padding-bottom: 30.8px;
 
+}
+.email{
+padding-right: 50px;
+}
+.menu-item{
+    padding-right: 50px;
+
+}
+ul{
+    margin:0;
+    padding:0;
+    list-style: none;
+}
+.user {
+    padding-right: 20px;
+    color: #757575;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.28px;
+    padding-top: 30.8px;
+    padding-bottom: 30.8px;
+}
+a{
+    text-decoration: none;
 }
 a:hover{
     color: blue;
 }
 
-a{text-decoration: none;}
-
-div.blok{
+.blok{
     display: block;
+    width: 1600px;
     height: 600px;
-    margin-top: 80px;
-    border: 1px solid black;
-    padding: 10px;
-    background-color: #2F303A;}
-p.efect{
-    display: block;
-    margin-top: 230px;
- text-align: center;
- font-family: Roboto;
-font-size: 44px;
-font-weight: 900;
-line-height: 60px;
-letter-spacing: 0.06em;
-text-align: center;
-color: #FFFFFF;
+    flex-shrink: 0;
+    background-color: #2F303A;
 }
-button.posluga{
-    display: block;
-    margin-top: auto;
-    margin-left: 550px;
-    margin-right:550px ;
-    height: 50px;
+
+.prise{
+    display:block;
+    margin: auto;
+    padding-top: 200px;
+    padding-bottom: 30px;
+    width: 696px;
+    color: #FFF;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 60px; 
+    letter-spacing: 2.64px;
+    text-transform: uppercase;
+}
+
+.button {
     width: 216px;
+    height: 50px;
+    color: #FFF;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px; 
+    letter-spacing: 0.96px;
+    flex-shrink: 0;
     border-radius: 4px;
-    box-shadow: 0px 4px 4px 0px #00000026;
     background: #2196F3;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 
 }
+.button-1{
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+    padding-bottom: 200px;
 
-p.pos{
-display: inline;
-font-family: Roboto;
-font-size: 16px;
-font-weight: 700;
-line-height: 30px;
-letter-spacing: 0.06em;
-text-align: center;
-color: #FFFFFF;
 }
-h2.most{
+.button:hover{
+   font-size: 20px;
+}
+.box{
+    display:flex;
+    padding-top: 94px;
+    padding-bottom: 118px;
+    padding-left:215px;
+    padding-right: 215px;
+}
+h2{
+    width: 270px;
+    color:#212121;
+    color: #212121;
     font-family: Roboto;
     font-size: 14px;
+    font-style: normal;
     font-weight: 700;
-    line-height: 16px;
-    letter-spacing: 0.03em;
-    text-align: left;
-    color: #212121;
- }
- p.tex{
-font-family: Roboto;
-font-size: 14px;
-font-weight: 400;
-line-height: 24px;
-letter-spacing: 0.03em;
-text-align: left;
-color:  #757575;
+    line-height: normal;
+    letter-spacing: 0.42px;
+    text-transform: uppercase;
+}
 
-
- }
-div.yva{
-    display: inline-block;
+p{
     width: 270px;
-    height: 98px;
-    margin-left: 30px;
-    margin-top: 40px;
-    padding: 10px;
-    background-color: #ffffff;
+    height: 72px;
+    flex-shrink: 0;
+    color: #757575;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 171.429% */
+    letter-spacing: 0.42px;
 }
-div.pun{
-    display: inline-block;
-    width: 270px;
-    height: 74px;
-    margin-left: 30px;
-    margin-top: 40px;
-    padding: 10px;
-    background-color: #ffffff;
+.yva {
+    padding-right: 30px;
 }
-div.pln{
-    display: inline-block;
-    width: 270px;
-    height: 74px;
-    margin-left: 30px;
-    margin-top: 40px;
-    padding: 10px;
-    background-color: #ffffff;
+.pun{
+    padding-right: 30px;
 }
-div.suh{
-    display: inline-block;
-    width: 270px;
-    height: 74px;
-    margin-left: 30px;
-    margin-right:40px ;
-    margin-top: 40px;
-    padding: 10px;
-    background-color: #ffffff;
+.pln{
+    padding-right: 30px;
 }
 img.play{
-    display: inline-block;
-    width: 1170px;
-   height: 386px;
-margin-top: 50px;
-margin-left: 80px;
+    display:block;
+    padding-left:215px ;
+    padding-right:215px ;
+    padding-bottom:94px;
 
 }
-div.team{
+.team{
     background-color: #F5F4FA;
+    width: 1600px;
+    height: 648px;
+    flex-shrink: 0;
 }
-img.teem{
-   display: inline-block;
+.teem{
+   display: inline;
+   justify-content: center;
    width: 270px;
    height: 260px;
-   top: 1632px;
-   left: 215px
 }
-div.igor{
+.igor{
     display: inline-block;
     width: 270px;
     height: 368px;
-    top: 1632px;
-    left: 215px; 
+    margin-left:215px;
     background-color: #FFFFFF;
     border-radius: 0px 0px 4px 4px;
     box-shadow: 0px 2px 1px 0px #00000033;
     box-shadow: 0px 1px 1px 0px #00000024;
     box-shadow: 0px 1px 3px 0px #0000001F;
-    margin: 30px;
 }    
-div.olga{
+.olga{
     display: inline-block;
     width: 270px;
     height: 368px;
-    top: 1632px;
-    left: 515px;
+    margin-left: 30px;
     background-color: #FFFFFF;
     border-radius: 0px 0px 4px 4px;
     box-shadow: 0px 2px 1px 0px #00000033;
     box-shadow: 0px 1px 1px 0px #00000024;
     box-shadow: 0px 1px 3px 0px #0000001F;
-    margin: 30px;
+   
 }
-div.mikola{
+.mikola{
     display: inline-block;
     width: 270px;
     height: 368px;
-    top: 1632px;
-    left: 815px;
+    margin-left: 30px;
     background-color: #FFFFFF;
     border-radius: 0px 0px 4px 4px;
     box-shadow: 0px 2px 1px 0px #00000033;
     box-shadow: 0px 1px 1px 0px #00000024;
     box-shadow: 0px 1px 3px 0px #0000001F;
-    margin: 30px;
+  
 }
-div.mixa{
+.mixa{
     display: inline-block;
     width: 270px;
     height: 368px;
-    top: 1632px;
-    left: 1115px;
+    margin-left: 30px;
     background-color: #FFFFFF;
     border-radius: 0px 0px 4px 4px;
     box-shadow: 0px 2px 1px 0px #00000033;
     box-shadow: 0px 1px 1px 0px #00000024;
     box-shadow: 0px 1px 3px 0px #0000001F;
-    margin: 30px;
+
 }
 h2.good{
-    display: block;
+    display: flex;
+    justify-content: center;
     font-family: Roboto;
     font-size: 36px;
     font-weight: 700;
@@ -256,6 +242,9 @@ h2.good{
     letter-spacing: 0.03em;
     text-align: center;
     color:  #212121;
+    padding-top:94px;
+    padding-left:668px;
+    padding-right:668px;
 }
 h2.name{
     display: block;
@@ -281,6 +270,7 @@ p.work{
 }
 footer{
     display: block;
+    width: 1600px;
     background-color: #2F303A;
     height: 252px;
 }
